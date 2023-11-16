@@ -1,0 +1,98 @@
+@font-face {
+    font-family: CruinnBold;
+    font-style: normal;
+    src: local("CruinnBold"),
+        local("Cruinn Bold"),
+        local("Cruinn-Bold") url(fonts/CruinnBold.eot) format("eot"),
+        url(fonts/CruinnBold.woff) format("woff"),
+        url(fonts/CruinnBold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: CruinnRegular;
+    font-style: normal;
+    src: local("CruinnRegular"),
+        local("Cruinn Regular"),
+        local("Cruinn-Regular") url(fonts/CruinnRegular.eot) format("eot"),
+        url(fonts/CruinnRegular.woff) format("woff"),
+        url(fonts/CruinnRegular.woff2) format("woff2");
+}
+
+body {
+    font-family: CruinnRegular;
+    background-color: rgb(22, 25, 22);
+    color: white;
+}
+
+h1 {
+    font-family: CruinnBold;
+    font-size: 4vw;
+    text-align: center;
+    padding: 2%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.inputs input {
+    width: 20vw;
+    height: 2vw;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttonsOne,
+.buttonsTwo {
+    margin-top: 1vw;
+    text-align: center;
+}
+
+.buttonsOne button,
+.buttonsTwo button {
+    font-family: CruinnRegular;
+    font-size: 2vw;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.buttOne {
+    background-color: rgb(44, 175, 44);
+}
+
+.buttTwo {
+    background-color: rgb(175, 44, 44);
+}
+
+.buttThree {
+    background-color: rgb(175, 151, 44);
+}
+
+.buttFour {
+    background-color: rgb(44, 105, 175);
+}
+
+.result {
+    margin-top: 1vw;
+    width: 10vw;
+    height: 5vw;
+    padding: 1vw;
+    text-align: center;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    color: black;
+}
+
+footer img {
+    margin-top: 6%;
+    width: 10vw;
+}
