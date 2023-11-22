@@ -3,7 +3,8 @@
     font-style: normal;
     src: local("CruinnBold"),
         local("Cruinn Bold"),
-        local("Cruinn-Bold") url(fonts/CruinnBold.eot) format("eot"),
+        local("Cruinn-Bold"),
+        url(fonts/CruinnBold.eot) format("eot"),
         url(fonts/CruinnBold.woff) format("woff"),
         url(fonts/CruinnBold.woff2) format("woff2");
 }
@@ -13,7 +14,8 @@
     font-style: normal;
     src: local("CruinnRegular"),
         local("Cruinn Regular"),
-        local("Cruinn-Regular") url(fonts/CruinnRegular.eot) format("eot"),
+        local("Cruinn-Regular"),
+        url(fonts/CruinnRegular.eot) format("eot"),
         url(fonts/CruinnRegular.woff) format("woff"),
         url(fonts/CruinnRegular.woff2) format("woff2");
 }
@@ -90,9 +92,4 @@ h1 {
     margin-left: auto;
     border-radius: 5px;
     color: black;
-}
-
-footer img {
-    margin-top: 6%;
-    width: 10vw;
 }
