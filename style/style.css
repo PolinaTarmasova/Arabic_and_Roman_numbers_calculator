@@ -4,9 +4,9 @@
     src: local("CruinnBold"),
         local("Cruinn Bold"),
         local("Cruinn-Bold"),
-        url(fonts/CruinnBold.eot) format("eot"),
-        url(fonts/CruinnBold.woff) format("woff"),
-        url(fonts/CruinnBold.woff2) format("woff2");
+        url(../fonts/CruinnBold.eot) format("eot"),
+        url(../fonts/CruinnBold.woff) format("woff"),
+        url(../fonts/CruinnBold.woff2) format("woff2");
 }
 
 @font-face {
@@ -15,9 +15,9 @@
     src: local("CruinnRegular"),
         local("Cruinn Regular"),
         local("Cruinn-Regular"),
-        url(fonts/CruinnRegular.eot) format("eot"),
-        url(fonts/CruinnRegular.woff) format("woff"),
-        url(fonts/CruinnRegular.woff2) format("woff2");
+        url(../fonts/CruinnRegular.eot) format("eot"),
+        url(../fonts/CruinnRegular.woff) format("woff"),
+        url(../fonts/CruinnRegular.woff2) format("woff2");
 }
 
 body {
